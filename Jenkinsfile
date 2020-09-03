@@ -1,3 +1,4 @@
+pipeline {
 podTemplate(
   label: 'skaffold',
   containers: [
@@ -32,4 +33,5 @@ podTemplate(
       }
     }
   }
+}
 }
