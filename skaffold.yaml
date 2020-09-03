@@ -2,7 +2,7 @@ apiVersion: skaffold/v1alpha2
 kind: Config
 build:
   artifacts:
-  - imageName: docker.io/hhayakaw/cowweb
+  - imageName: default-route-openshift-image-registry.apps.cluster-cb7e.sandbox840.opentlc.com/test-cicd2/cowweb
     workspace: .
     docker:
       dockerfilePath: ./kubernetes/container/Dockerfile_dev
